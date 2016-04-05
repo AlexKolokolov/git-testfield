@@ -2,13 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link type="text/css" rel="stylesheet" href="style.css" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+        <script type="text/javascript" src="js/MyScript.js"></script>
         <title>GitTestPage</title>
     </head>
     <body>
         <header>
             <h1>Основной заголовок</h1>
-            <table>
+            <h3 id="HidenInfoTitle">Contacts:</h3>
+            <table id="HidenInfo">
                 <tr>
                     <td>phone:</td>
                     <td>555-55-55</td>
@@ -16,6 +19,10 @@
                 <tr>
                     <td>e-mail:</td>
                     <td><a href="mailto:mymail@gmail.com">mymail@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td>address:</td>
+                    <td>>Ukraine, Kyiv, Khreschatik, 25</td>
                 </tr>
             </table>
         </header>
