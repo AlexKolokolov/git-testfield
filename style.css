@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: coral;
+}
+
+header {
+    width: 96%;
+    margin: 1%;
+    padding: 1%;    
+}
+
+header h1 {
+    color: darkblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+article {
+    width: 98%;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+article h2 {
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    background-color: cadetblue;
+}
+
+header, article {
+    background-color: rgba(50, 80, 200, 0.5);
+    box-shadow: 5px 5px 10px rgba(30, 60, 180, 0.5);
+}
