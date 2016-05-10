@@ -8,11 +8,20 @@ body {
 header {
     width: 96%;
     margin: 1%;
-    padding: 1%;    
+    padding: 1%;
+    position: relative;
 }
 
 #HidenInfoTitle {
     cursor: pointer;
+}
+
+#HidenInfo {
+    background-color: cadetblue;
+    position: absolute;
+    left: 1%;
+    top: 76%;
+    box-shadow: 5px 5px 10px blue;
 }
 
 header h1 {
